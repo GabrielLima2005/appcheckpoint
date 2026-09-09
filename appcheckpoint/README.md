@@ -1,61 +1,52 @@
 # 🍔 Lanches & Cia
 
-Aplicativo mobile desenvolvido em **React Native** com **Expo**, criado como projeto acadêmico de **Checkpoint**.
+<p align="center">
+  Aplicativo mobile de cardápio digital desenvolvido com React Native e Expo.
+</p>
 
-O aplicativo simula o cardápio digital de uma lanchonete, permitindo que o usuário visualize produtos, pesquise por lanches e filtre os itens de acordo com suas categorias.
-
----
-
-## 📱 Demonstração
-
-O aplicativo apresenta uma interface simples, moderna e intuitiva, permitindo ao usuário navegar pelo cardápio de forma rápida.
-
-### Principais telas e elementos
-
-- 🏠 Página principal
-- 🍔 Banner de destaque
-- 🔎 Campo de pesquisa
-- 🏷️ Categorias de produtos
-- 🛒 Ícone de carrinho
-- 🍟 Lista de produtos
-- ⭐ Avaliação dos produtos
-- 💰 Preços
-- 🖼️ Imagens dos produtos
+<p align="center">
+  <img src="https://img.shields.io/badge/React%20Native-0.81-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Expo-54-black?logo=expo" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/Status-Concluído-success" />
+</p>
 
 ---
 
-# 🎯 Objetivo do projeto
+## 📌 Sobre o projeto
 
-O objetivo do projeto é desenvolver um aplicativo mobile utilizando os principais componentes do **React Native**, aplicando conceitos de:
+O **Lanches & Cia** é uma aplicação mobile desenvolvida em **React Native** utilizando o **Expo**.
 
-- Componentização
-- Listas
-- Estados
-- Filtros
-- Eventos
-- Estilização
-- Interface de usuário
-- Organização de código
+O projeto simula um sistema de cardápio digital para uma lanchonete, permitindo que o usuário visualize os produtos disponíveis, pesquise por itens e filtre o cardápio de acordo com diferentes categorias.
 
-O projeto também demonstra a utilização de componentes reutilizáveis para facilitar a manutenção e organização da aplicação.
+A aplicação foi desenvolvida com foco em uma interface simples, moderna e intuitiva, utilizando componentes reutilizáveis e boas práticas de organização.
 
 ---
 
-# 🚀 Funcionalidades
+## 🎯 Objetivos
 
-## 🔎 Pesquisa de produtos
+O projeto tem como principais objetivos:
 
-O usuário pode pesquisar um produto utilizando o campo de busca.
-
-A pesquisa verifica o nome dos produtos e apresenta somente os resultados correspondentes.
+- Desenvolver uma interface mobile utilizando React Native;
+- Aplicar conceitos de componentização;
+- Trabalhar com listas de dados;
+- Utilizar gerenciamento de estado;
+- Implementar pesquisa e filtros;
+- Utilizar componentes nativos do React Native;
+- Criar uma interface responsiva e intuitiva;
+- Praticar organização e versionamento de código com Git e GitHub.
 
 ---
 
-## 🏷️ Filtro por categoria
+## ✨ Funcionalidades
 
-O usuário pode selecionar uma categoria para visualizar produtos específicos.
+### 🔎 Pesquisa
 
-Categorias disponíveis:
+Permite pesquisar produtos pelo nome através de um campo de busca.
+
+### 🏷️ Categorias
+
+O usuário pode filtrar os produtos por categoria:
 
 - Todos
 - Lanches
@@ -63,26 +54,62 @@ Categorias disponíveis:
 - Acompanhamentos
 - Bebidas
 
+### 🍔 Cardápio
+
+Cada produto apresenta:
+
+- Imagem;
+- Nome;
+- Descrição;
+- Categoria;
+- Preço;
+- Avaliação.
+
+### ⭐ Avaliações
+
+Os produtos possuem avaliações exibidas através de estrelas.
+
+### 📱 Interface
+
+A aplicação possui:
+
+- Cabeçalho;
+- Banner de destaque;
+- Campo de pesquisa;
+- Filtros;
+- Cards de produtos;
+- Rodapé;
+- Layout adaptado para dispositivos móveis.
+
 ---
 
-## 🍔 Cardápio
+## 🖥️ Interface
 
-O aplicativo apresenta diferentes produtos contendo:
-
-- Nome
-- Descrição
-- Categoria
-- Preço
-- Avaliação
-- Imagem
-
----
-
-## ⭐ Avaliação
-
-Cada produto possui uma avaliação representada por estrelas.
-
-Exemplo:
+A estrutura principal da aplicação é composta por:
 
 ```text
-★ 4.9
+┌──────────────────────────────────┐
+│       🍔 LANCHES & CIA           │
+│       O sabor que você merece!   │
+├──────────────────────────────────┤
+│                                  │
+│    🍔 Hambúrguer especial        │
+│    Peça agora e aproveite!      │
+│                                  │
+├──────────────────────────────────┤
+│ 🔎 Pesquisar produto...          │
+├──────────────────────────────────┤
+│ Categorias                       │
+│                                  │
+│ [Todos] [Lanches] [Combos]       │
+│ [Bebidas] [Acompanhamentos]      │
+├──────────────────────────────────┤
+│ Nosso cardápio                  │
+│                                  │
+│ ┌──────────────────────────────┐ │
+│ │ 🍔  X-Bacon                  │ │
+│ │     Hambúrguer, queijo...    │ │
+│ │     R$ 24,90       ★ 4.9     │ │
+│ └──────────────────────────────┘ │
+│                                  │
+└──────────────────────────────────┘
