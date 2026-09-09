@@ -1,11 +1,45 @@
-# Sample Snack app
+# 🍔 Lanches & Cia
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicativo mobile desenvolvido em **React Native** utilizando **Expo**, criado como projeto de Checkpoint.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## 📱 Sobre o projeto
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+O **Lanches & Cia** é um aplicativo que simula o cardápio de uma lanchonete. O usuário pode visualizar os produtos, pesquisar por um lanche e filtrar os itens por categoria.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## 🚀 Funcionalidades
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- 🍔 Visualização dos produtos
+- 🔎 Pesquisa de produtos
+- 🏷️ Filtro por categorias
+- ⭐ Avaliação dos produtos
+- 💰 Exibição dos preços
+- 🖼️ Imagens dos produtos
+- 📱 Interface responsiva para dispositivos móveis
+
+## 🛠️ Tecnologias utilizadas
+
+- React Native
+- Expo
+- JavaScript
+- FlatList
+- StyleSheet
+- useState
+
+## 📚 Componentes utilizados
+
+O projeto utiliza os seguintes componentes do React Native:
+
+- `View` — organização dos elementos
+- `Text` — exibição de textos
+- `Image` — exibição das imagens
+- `StyleSheet` — estilização
+- `FlatList` — criação da lista de produtos
+- `TextInput` — campo de pesquisa
+- `TouchableOpacity` — seleção das categorias
+
+## 🧩 Componente personalizado
+
+Foi criado o componente:
+
+```text
+ProdutoCard
