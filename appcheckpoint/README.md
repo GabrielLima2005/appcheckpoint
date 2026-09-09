@@ -1,45 +1,88 @@
 # 🍔 Lanches & Cia
 
-Aplicativo mobile desenvolvido em **React Native** utilizando **Expo**, criado como projeto de Checkpoint.
+Aplicativo mobile desenvolvido em **React Native** com **Expo**, criado como projeto acadêmico de **Checkpoint**.
 
-## 📱 Sobre o projeto
+O aplicativo simula o cardápio digital de uma lanchonete, permitindo que o usuário visualize produtos, pesquise por lanches e filtre os itens de acordo com suas categorias.
 
-O **Lanches & Cia** é um aplicativo que simula o cardápio de uma lanchonete. O usuário pode visualizar os produtos, pesquisar por um lanche e filtrar os itens por categoria.
+---
 
-## 🚀 Funcionalidades
+## 📱 Demonstração
 
-- 🍔 Visualização dos produtos
-- 🔎 Pesquisa de produtos
-- 🏷️ Filtro por categorias
+O aplicativo apresenta uma interface simples, moderna e intuitiva, permitindo ao usuário navegar pelo cardápio de forma rápida.
+
+### Principais telas e elementos
+
+- 🏠 Página principal
+- 🍔 Banner de destaque
+- 🔎 Campo de pesquisa
+- 🏷️ Categorias de produtos
+- 🛒 Ícone de carrinho
+- 🍟 Lista de produtos
 - ⭐ Avaliação dos produtos
-- 💰 Exibição dos preços
+- 💰 Preços
 - 🖼️ Imagens dos produtos
-- 📱 Interface responsiva para dispositivos móveis
 
-## 🛠️ Tecnologias utilizadas
+---
 
-- React Native
-- Expo
-- JavaScript
-- FlatList
-- StyleSheet
-- useState
+# 🎯 Objetivo do projeto
 
-## 📚 Componentes utilizados
+O objetivo do projeto é desenvolver um aplicativo mobile utilizando os principais componentes do **React Native**, aplicando conceitos de:
 
-O projeto utiliza os seguintes componentes do React Native:
+- Componentização
+- Listas
+- Estados
+- Filtros
+- Eventos
+- Estilização
+- Interface de usuário
+- Organização de código
 
-- `View` — organização dos elementos
-- `Text` — exibição de textos
-- `Image` — exibição das imagens
-- `StyleSheet` — estilização
-- `FlatList` — criação da lista de produtos
-- `TextInput` — campo de pesquisa
-- `TouchableOpacity` — seleção das categorias
+O projeto também demonstra a utilização de componentes reutilizáveis para facilitar a manutenção e organização da aplicação.
 
-## 🧩 Componente personalizado
+---
 
-Foi criado o componente:
+# 🚀 Funcionalidades
+
+## 🔎 Pesquisa de produtos
+
+O usuário pode pesquisar um produto utilizando o campo de busca.
+
+A pesquisa verifica o nome dos produtos e apresenta somente os resultados correspondentes.
+
+---
+
+## 🏷️ Filtro por categoria
+
+O usuário pode selecionar uma categoria para visualizar produtos específicos.
+
+Categorias disponíveis:
+
+- Todos
+- Lanches
+- Combos
+- Acompanhamentos
+- Bebidas
+
+---
+
+## 🍔 Cardápio
+
+O aplicativo apresenta diferentes produtos contendo:
+
+- Nome
+- Descrição
+- Categoria
+- Preço
+- Avaliação
+- Imagem
+
+---
+
+## ⭐ Avaliação
+
+Cada produto possui uma avaliação representada por estrelas.
+
+Exemplo:
 
 ```text
-ProdutoCard
+★ 4.9
